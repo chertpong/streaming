@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "streaming",
+    "packageName": "com.kritacademy.projects.streaming",
+    "packageFolder": "com/kritacademy/projects/streaming",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "4022e83ef216df380c534e2f1f5ee6851dc7ddc6",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
